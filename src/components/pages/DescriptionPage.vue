@@ -45,7 +45,7 @@
         the winding cobbled streets host chic cafes, retro boutiques and fine
         French dining but, if you look closely enough, those in search of
         historical secrets can still find traces of the old La Bohème hidden
-        between the tourist traps….
+        between the tourist traps…..
       </p>
       <h1 class="a-walking-trail-of-m" style="margin-top: 5%">Tags</h1>
       <button
