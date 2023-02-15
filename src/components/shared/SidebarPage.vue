@@ -17,7 +17,7 @@
           <span class="pointContent">Create new Point</span>
         </div>
       </div>
-      <router-link class="nav-link" to="/about">Media</router-link>
+      <router-link class="nav-link" to="/media">Media</router-link>
       <router-link class="nav-link" to="/">Settings</router-link>
     </div>
   </nav>
@@ -30,7 +30,6 @@ export default defineComponent({
 </script>
 <style scoped>
 .sidebar {
-  z-index: 1;
   position: absolute;
   background-color: #f6f6f6;
   height: 180vh;

@@ -6,11 +6,11 @@ const routes = [
     name: "DescriptionPage",
     component: () => import(/* webpackChunkName: "Home" */ '../components/pages/DescriptionPage.vue')
   },
-//   {
-//     path: "/about",
-//     name: "About",
-//     component: () => import(/* webpackChunkName: "About" */ '../components/pages/About.vue')
-//   },
+  {
+    path: "/media",
+    name: "Media",
+    component: () => import(/* webpackChunkName: "Media" */ '../components/pages/Media.vue')
+  },
 //   {
 //     path: "/users",
 //     name: "Users",

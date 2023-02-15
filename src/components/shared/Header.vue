@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="logoContainer">
-          <img class="logo" src="../../assets/geotouristLogo.png" />
+          <img class="logo" src="../../assets/geotouristLogo.png"/>
           <span class="geo">geo</span>
           <span class="tourist">tourist</span>
         </div>
