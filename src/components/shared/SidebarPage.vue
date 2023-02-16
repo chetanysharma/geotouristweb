@@ -5,15 +5,21 @@
       <div>
         <router-link class="nav-link" to="/">Points</router-link>
         <div class="points">
-          <fa class="icons-favourite" icon="circle" />
+          <span class="dot">
+            <span class="numbers">1</span>
+          </span>
           <span class="pointContent">Abbesses Metro Station</span>
         </div>
         <div class="points">
-          <fa class="icons-favourite" icon="circle" />
+          <span class="dot">
+            <span class="numbers">2</span>
+          </span>
           <span class="pointContent">Pigalle</span>
         </div>
         <div class="points">
-          <fa class="icons-favourite" icon="plus" />
+          <span class="dot">
+            <span class="numbers">+</span>
+          </span>
           <span class="pointContent">Create new Point</span>
         </div>
       </div>
@@ -40,16 +46,31 @@ export default defineComponent({
   margin-top: 5%;
 }
 .nav-link {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 400;
   margin-top: 5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .points {
     margin: 20px 1px 20px 1px;
 }
 .pointContent {
-    margin-left: 10px;
-    font-size: 15px;
+    margin-left: 30px;
+    font-size: 20px;
     color: gray;
+    font-weight: 300;
+}
+.dot {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #d6d6d6;
+  border-radius: 50%;
+  display: inline-block;
+}
+.numbers{
+  font-size: 22px;
+  color: darkgray;
+  margin-top: 5px;
+  margin-left: 15px;
 }
 </style>

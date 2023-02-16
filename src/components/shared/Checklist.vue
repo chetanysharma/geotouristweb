@@ -91,8 +91,8 @@
     <!-- modal start -->
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog" style="margin-top: 20%">
+    <div class="modal fade" id="myModal" role="dialog" style="overflow:hidden">
+      <div class="modal-dialog" style="margin-top: 15%">
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
@@ -178,8 +178,8 @@
       </div>
     </div>
     <!-- modal end -->
-    <div class="modal fade" id="tourModal" role="dialog">
-      <div class="modal-dialog" style="margin-top: 20%">
+    <div class="modal fade" id="tourModal" role="dialog" style="overflow:hidden">
+      <div class="modal-dialog" style="margin-top: 15%">
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-body">
